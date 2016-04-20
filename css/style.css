@@ -1,0 +1,81 @@
+/*背景*/
+.bg{background-color: rgb(227,227,226);
+color: cornsilk}
+.tbg{
+    background-color: rgb(134,0,23);
+    background-size: cover;
+     height:80px;
+     border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; 
+}
+.mbg{background-color:rgb(10,70,60);
+    background-size:cover;
+    padding: 80px;
+    border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; 
+}
+
+.bbg{
+    background-color: rgb(134,0,23);
+    background-size: cover;
+    padding-bottom: 60px;
+    border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; 
+}
+/* 顶部菜单栏整体背景颜色 */
+.navbar-default {
+    background-color: rgb(134,0,23)
+}
+/* 顶部菜单栏搜索框颜色 */
+.navbar-default input[type="text"] {
+    background: #ffffff;
+    border: none;
+    color: rgb(220,220,200)；
+}
+
+
+/* 顶部图标样式设置 */
+.navbar-default button[type="submit"] {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    background: none;
+    border: none;
+}
+
+/* 顶部菜单栏图标颜色 */
+.navbar-default .glyphicon {
+    color: rgb(220, 220, 200)
+}
+
+/*  页头部分样式  */
+
+#search{
+    padding: 18px 0 20px 30px;
+}
+
+#tag1{
+    padding: 9px;
+}
+#tag2{
+    padding: 23px;
+}
+/* 登录注册边栏样式设置 */
+#register{
+    padding: 35px 20px 20px 20px;
+    background: rgb(220, 220, 200);
+    height: auto;
+  
+}
+/*居中*/
+.center {
+  width: auto;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* 评论的样式 */
+#comments h2{
+  font-size: 18px;
+}
+
+#comments .media{
+  margin-bottom: 20px;
+}
